@@ -29,8 +29,7 @@
 
 ### Front end
 * Plays RTMP stream from back end
-* Can be configured to ask for a password on entrance
-  
+* Can be configured to ask for a password on entrance   
   * Per stream !?
 * Shows all connected streamers
 * Allows changing to a different streamer
@@ -44,8 +43,8 @@
 Deployment in Docker images
 Discovery:
 
-* gRPC (protobuf) https://github.com/PacktPublishing/- - gRPC-Golang-Master-Class-Build-Modern-API-and-Microservices
-  https://github.com/grpc/grpc-go
+* gRPC (protobuf) [PacktPub eBook Repo](https://github.com/PacktPublishing/-gRPC-Golang-Master-Class-Build-Modern-API-and-Microservices) |
+  [reference Go implementaion repo](https://github.com/grpc/grpc-go)
 
 ### Back end
 * publishes at least one streamer
