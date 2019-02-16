@@ -49,21 +49,20 @@ Discovery:
 ### Back end
 * publishes at least one streamer
 
-Endpoint for incoming rtmp stream
-Exposing endpoint for dash fragments
+* Endpoint for incoming rtmp stream
+* Exposing endpoint for dash fragments
+* Decision about implementation of scalability postponed (i.e. is not part of MVP)
+
 Discovery:
 
 * Convert rtmp in dash fragments in go
-* pushes meta data (Stream goes online) to frontend (directly, events)
 
 ### Front end
 * Users can consume published stream from back end
 * Volume control (mute, unmute, louder, quieter)
 * pause/unpause
 * Full screen mode
-  Discovery:
-  
-  * pulls Meta data from back end (Stream goes online)
+* pulls Meta data from back end (Stream goes online)
 
 ### Auth
 * Will be postponed
