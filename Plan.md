@@ -57,6 +57,11 @@ Discovery:
 
 * Convert rtmp in dash fragments in go
 
+Find a Solution for:
+
+* go-server take rtmp and convert to dash
+* make a small test application
+
 ### Front end
 * Users can consume published stream from back end
 * Volume control (mute, unmute, louder, quieter)
